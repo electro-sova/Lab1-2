@@ -52,7 +52,7 @@ namespace TestProject
         public void Test_Factorial_2()
         {
             Exception ex = Assert.Throws<Exception>(() => Program.Factorial(-10)); // ыавыпавррпвроывфыв
-            Assert.That(ex.Message, Is.EqualTo("����� ������ ����"));
+            Assert.That(ex.Message, Is.EqualTo("Число меньше нуля"));
         }
 
         [Test]
@@ -66,7 +66,7 @@ namespace TestProject
         {
             Exception ex = Assert.Throws<Exception>(() => Program.Fibonacci(-1));
 
-            Assert.That(ex.Message, Is.EqualTo("����� ������ ����"));
+            Assert.That(ex.Message, Is.EqualTo("Число меньше нуля"));
         }
 
         [Test]
@@ -79,14 +79,14 @@ namespace TestProject
         {
             Exception ex = Assert.Throws<Exception>(() => Program.Stepen(-0.551, 0.111));
 
-            Assert.That(ex.Message, Is.EqualTo("����� ������ ��� ��������� ����"));
+            Assert.That(ex.Message, Is.EqualTo("Число меньше или равняется нулю"));
         }
         [Test]
         public void Test_Stepen_3()
         {
             Exception ex = Assert.Throws<Exception>(() => Program.Stepen(0.0, -0.421));
 
-            Assert.That(ex.Message, Is.EqualTo("����� ������ ��� ��������� ����"));
+            Assert.That(ex.Message, Is.EqualTo("Число меньше или равняется нулю"));
         }
 
         [Test]
