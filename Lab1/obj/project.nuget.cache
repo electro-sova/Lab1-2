@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "TLwQsprw9YAfQUaouxxVjCIYRci1R+dX3b1Trb5HVXDutKr/xbDiZEU1dYpXJ3S9CkSHFIYZFyo11XJqsfiXPA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\timur\\OneDrive\\Рабочий стол\\Новая папка\\Lab1-2\\Lab1\\Lab1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
